@@ -2,14 +2,15 @@
 	<head>
 		<meta charset="utf-8">
 		<title>playstore</title>
-		<link rel="stylesheet" text="text/css" 
-		href="week3.css"/>
-
+		<link rel="stylesheet" text="text/css" media="(min-width:568px)"href="week3.css"/>
+		<link rel="stylesheet" text="text/css" media="(max-width:569px) " href="week4.css"/>
 	</head>
 	<body>
 		<div class="wrap">
 			<header>
 				<div class="right" >
+					<span class="mobile"></span>
+					
 					<div class="id">
 						<a href="https://plus.google.com/u/0/?tab=8X">+lee</a>
 					</div>
@@ -29,11 +30,17 @@
 					</ul>
 				</div>
 				<div class="left">
+					<span class="mobile"></span>
+				
 					<a href="https://play.google.com/store">
 						<span></span>	
 					</a>
 				</div>
 				<div class="middle">
+					<a href="" class="mobile"></a>
+					<div class="mobile">
+						<span></span>
+					</div>
 					<fieldset>
 						
 						<input type="text" name="Search" value placeholder="검색" >
@@ -42,7 +49,6 @@
 						</span></button>
 					</fieldset>	
 				</div>
-
 			</header>
 			<section>
 				<aside>
@@ -65,7 +71,13 @@
 				</aside>
 
 				<nav>
-					<div>	
+					<div>
+						<ul class="mobile">
+							<li> <a href="" class="mobile"> 내 책</a> </li>
+							<li> <a href="" class="mobile"> 신규 출시</a> </li>
+							<li> <a href="" class="mobile"> 인기 차트</a> </li>
+						</ul>
+
 						<div class="right">
 							<button class="b1">
 								<span></span>

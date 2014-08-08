@@ -78,7 +78,7 @@ header .right li a{
 header .right ul li .a1{
 	background-position: -51px -452px;
 	height:30px;
-	width:30px;
+	width:30px;	
 	opacity: .55;
 }
 header .right ul li .a2{
@@ -160,6 +160,7 @@ header .middle span{
 }
 
 aside{
+	z-index: 10;
 	position:absolute;
 	top:60px;
 	height:240px;
@@ -509,4 +510,9 @@ footer .down{
 		height:95px;
 		background-color:#ffffff;
 	}
+}
+
+.mobile{
+
+	display: none;
 }
