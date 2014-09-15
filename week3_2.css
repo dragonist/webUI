@@ -1,0 +1,22 @@
+div{
+  border-width:1px;
+  border-color:red;
+  display:inline-block;
+}
+.wrap{
+  border-width:1px;
+  border-color:black;
+  border-style:solid;
+  width:100%;
+}
+.main{
+  background-color:#ddddff;
+  float:left;
+  margin-left:4%;
+  width:70%
+}
+.right{
+  background-color: #ffdddd;
+  float:right;
+  margin-right:4%;
+  width:20%}

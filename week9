@@ -1,0 +1,16 @@
+****
+event.stopPropagation(); 버블링 막는거 // 마지막 꺼에만 적용되도록 하는거
+
+****
+data.insertAdjacentHTML
+
+템플릿을 html 맨뒤쪽에 넣어서 코드를 깔끔하게 <script>는 type 이 이상하면 파싱이 안돼서 내가 필요 할때 꺼내 쓸수 있어
+
+
+확장도구 디버깅
+
+$0.ㅇ러나ㅣㅇ러ㅣㄴㅇ
+현재 요소 검색한 것 
+
+
+e.client.x

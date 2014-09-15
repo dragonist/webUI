@@ -1,0 +1,258 @@
+body, ul,button,h2{
+	border:0;
+	margin:0;
+	padding:0;
+}
+a{
+	font-size: 14px;
+	color:#404040;
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+div.wrap{
+	background-color: #e5e5e5;
+	color: #333;
+	font-family: "Roboto",Arial,sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+}
+header{
+	background-color: #ffffff;
+	width:100%;
+	height:48px;
+	border-bottom: 1px solid #aaa;
+	position: relative;
+	text-align: center;
+}
+header div *{
+	display:none;
+}
+header .right{
+	position:relative;
+	float:right;
+	height: 46px;
+	width: 46px;
+
+}
+header .right span{
+	background-image: url('./image/m_headerRight.png');
+	background-size: contain;
+	height: 24px;
+	left: 11px;
+	position: absolute;
+	top: 11px;
+	width: 24px;
+	float:right;
+}
+header .left{
+	position:relative;
+	float:left;
+	height: 46px;
+	width: 46px;
+}
+header .left span{
+	background-image: url('./image/m_headerLeft.png');
+	background-size: contain;
+	position: absolute;
+	float:left;
+	top: 11px;
+	width: 24px;
+	height: 24px;
+	left: 11px;
+}
+header .middle{
+	background-image: url('./image/play_logo_x2.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 40px;
+	margin-top: 10px;
+	width: 160px;
+	text-align: center;
+}
+aside{
+	display: none;
+}
+nav .right{
+	display:none;
+}
+nav .left{
+	display:none;
+}
+li{
+	display: inline-block;
+}
+nav li a{
+	margin: 5px;
+	min-width: 158px;
+	border-radius: 2px;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+	box-sizing: border-box;
+	background-color: #fff;
+	border: 1px solid rgba(0,0,0,0.17);
+
+	color: #737373;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Roboto",sans-serif;
+	font-size: 14px;
+	line-height: 34px;
+	text-align: center;
+}
+nav li a:hover{
+	border:1px solid rgba(0,0,0,0.3);
+	border-bottom:2px solid rgba(0,0,0,0.3); 
+}
+article {
+	overflow: hidden;
+	width:100%;
+}
+article li{
+	position: relative;
+	width:100%;
+	height:418px;
+	margin:5px 0 15px 0;
+	display:block;
+}
+article .l1{
+	margin-top:20px;
+
+}
+article h1{
+	position:relative;
+	padding:5px;
+}
+article h1 a{
+	display:block;
+}
+article h1 .a1{
+	color:#333;
+	font-size: 28px;
+	font-weight: 100;
+}
+article h1 .a2{
+
+}
+article h1 .a3{
+	position: absolute;
+	right:20px;
+	bottom:14px;
+	background-color: #1aa1e1;
+	border: 1px;
+	color: #fff;
+	height:25px;
+	padding:5px 13px 0;
+	border-radius: 2px;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+}
+article .books{
+	height: 330px;
+	overflow: hidden;
+}
+article .books li{
+	width:160px;
+	height: 330px;
+	display:inline-block;
+	margin:5px;
+	position: relative;
+}
+
+article .books li .up a{
+	position: absolute;
+	top:0;
+	left:0;
+
+	width:160px;
+	height:245px;
+	background-color: black;
+	opacity: 0;
+}
+article .books li .up a:hover{
+	opacity:.55;
+}
+article .books li  .up{
+	width:160px;
+	height:245px;
+	overflow: hidden;
+	border-radius: 2px 2px 0 0;
+	background-color: #f5f5f5;
+	display:table;
+}
+article .books li  .up div{
+	display:table-cell;
+	vertical-align:middle;
+}
+article .books li  .up div img{
+	max-height: 100%;
+	max-width:100%;
+}
+article .books li .down{
+	display:block;
+	position:relative;
+
+	width:140px;
+	padding:4px 10px 0;
+	height:85px;
+	background-color:#ffffff;
+}
+
+article .books li a.nblack{ 
+	display:block;
+	position:absolute;
+
+	width:140px;
+	height: 85px;
+}
+article .books li .down h2{
+	font-size: 14px;
+	line-height: 17px;
+	min-height: 17px;
+	display:block;
+	overflow: hidden;
+	white-space: nowrap;	
+}
+article .books li .down span{
+	line-height: 17px;
+	display: block;
+	font-size: 12px;
+}
+article .books li .down .left{
+	color:#aaa;
+	float:left;
+}
+article .books li .down .right{
+	float:right;
+	color:#1aa1e1;
+}
+article .books li .line:hover{
+	text-decoration: underline;
+	cursor:pointer;
+}
+.notmobile{
+	display: none;
+}
+footer{
+	display: none;
+}
+@media (max-width:520px){
+	nav {
+		padding-left: 10%;
+	}
+	article{
+		padding-left: 10%;
+	}
+}
+@media (min-width:520px){
+	nav {
+		padding-left: 10px;
+	}
+	article{
+		padding-left: 10px;
+	}
+}
+.mobile{
+	display:block;
+}
